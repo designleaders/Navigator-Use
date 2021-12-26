@@ -4,7 +4,7 @@ import 'SecondRoute.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'My App',
+    title: 'Amit',
     home: Main(),
   ));
 }
