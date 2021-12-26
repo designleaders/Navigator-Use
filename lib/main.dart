@@ -15,16 +15,16 @@ class Main extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Center(
-          child: Text('Main Route'),
+          child: Text('Main Page'),
         ),
       ),
       body: Center(
         child: RaisedButton(
-          child: Text('Open route'),
+          child: Text('Open Page'),
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => SecondRoute()),
+              MaterialPageRoute(builder: (context) => SecondPage()),
             );
           },
         ),
