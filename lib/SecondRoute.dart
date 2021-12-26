@@ -14,6 +14,9 @@ class SecondPage extends StatelessWidget {
       ),
       body: Center(
         child: RaisedButton(
+          color: Colors.blue,
+          textColor: Colors.white,
+          hoverColor: Colors.pink,
           onPressed: () {
             Navigator.pop(context);
           },
